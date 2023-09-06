@@ -4,6 +4,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 h1 {
@@ -11,7 +13,11 @@ h1 {
     font-weight: 500;
 }
 
-
+p {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 24px 16px 24px;
+}
 
 
 .banner-wrap {
@@ -31,13 +37,15 @@ nav {
     padding: 0 32px;
 }
 
-.nav-item{
+.nav-item {
     padding: 5px 15px;
+    cursor: pointer;
 }
-.nav-item:hover{
-    background: color #d8d9da;
+
+.nav-item:hover {
+    background-color: #d8d9da;
     border-bottom-left-radius: 9999px;
-    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
 }
@@ -56,13 +64,12 @@ main {
 }
 
 .title-section {
-    margin-top: calc(155px - 56px);
+    margin-top: calc(164px - 56px);
 }
 
 .actions-area {
     margin-bottom: 100px;
 }
-
 button{
     margin: 0;
     padding: 0;
