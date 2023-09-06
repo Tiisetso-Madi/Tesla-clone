@@ -35,7 +35,7 @@ nav {
     padding: 5px 15px;
 }
 .nav-item:hover{
-    background: color #d8d9da; ;
+    background: color #d8d9da;
     border-bottom-left-radius: 9999px;
     border-top-right-radius: 9999px;
     border-top-left-radius: 9999px;
